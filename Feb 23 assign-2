@@ -1,0 +1,21 @@
+a=[]
+n=int(input('Enter n:'))
+for i in  range(n):
+    d=int(input())
+    a.append(d)
+print('mylist before reverse:',a)
+a2=a
+a2.reverse()
+print('mylist after reverse',a2)
+
+output:
+Enter n:5
+23
+34
+56
+12
+99
+
+99
+mylist before reverse: [23, 34, 56, 12, 99]
+mylist after reverse [99, 12, 56, 34, 23]
